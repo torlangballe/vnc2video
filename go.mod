@@ -1,4 +1,4 @@
-module github.com/amitbet/vnc2video
+module github.com/torlangballe/vnc2video
 
 go 1.12
 
