@@ -2,6 +2,7 @@ package vnc2video
 
 import (
 	"encoding/binary"
+	"errors"
 	"fmt"
 	"github.com/amitbet/vnc2video/logger"
 )
