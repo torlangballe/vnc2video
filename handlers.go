@@ -138,6 +138,9 @@ func (*DefaultClientSecurityHandler) Handle(c Conn) error {
 			}
 		}
 	}
+	if secType == nil {
+		return errors.New("no security handler found for config of connection")
+	}
 
 	if err := binary.Write(c, binary.BigEndian, cfg.SecurityHandlers[0].Type()); err != nil {
 		return err
