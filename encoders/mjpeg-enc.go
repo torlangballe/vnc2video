@@ -5,7 +5,7 @@ import (
 	"image"
 	"image/jpeg"
 	"strings"
-	"github.com/amitbet/vnc2video/logger"
+	"github.com/torlangballe/vnc2video/logger"
 
 	"github.com/icza/mjpeg"
 )

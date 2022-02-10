@@ -7,7 +7,7 @@ import (
 	"os"
 	"os/exec"
 	"strings"
-	"github.com/amitbet/vnc2video/logger"
+	"github.com/torlangballe/vnc2video/logger"
 )
 
 // this is a very common loseless encoder (but produces huge files)

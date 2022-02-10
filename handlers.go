@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/amitbet/vnc2video/logger"
+	"github.com/torlangballe/vnc2video/logger"
 )
 
 // Handler represents handler of handshake
@@ -140,7 +140,7 @@ func (*DefaultClientSecurityHandler) Handle(c Conn) error {
 		}
 	}
 	if secType == nil {
-		return errors.New("no security handler found for config of connection")
+		return errors.New("VNC: no security handler found for config of connection")
 	}
 
 	if err := binary.Write(c, binary.BigEndian, cfg.SecurityHandlers[0].Type()); err != nil {

@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"image"
 	"image/draw"
-	"github.com/amitbet/vnc2video/logger"
+	"github.com/torlangballe/vnc2video/logger"
 )
 
 type CopyRectEncoding struct {

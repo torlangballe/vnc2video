@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net"
 	"sync"
-	"github.com/amitbet/vnc2video/logger"
+	"github.com/torlangballe/vnc2video/logger"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"os"
 	//"vncproxy/common"
 	//"vncproxy/encodings"
-	"github.com/amitbet/vnc2video/logger"
+	"github.com/torlangballe/vnc2video/logger"
 	//"vncproxy/encodings"
 	//"vncproxy/encodings"
 )

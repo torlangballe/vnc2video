@@ -5,7 +5,7 @@ import (
 	"image/color"
 	"image/draw"
 	"io"
-	"github.com/amitbet/vnc2video/logger"
+	"github.com/torlangballe/vnc2video/logger"
 )
 
 const (
